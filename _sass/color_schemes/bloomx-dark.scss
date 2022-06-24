@@ -1,5 +1,11 @@
-$body-background-color: $grey-dk-300;
-$sidebar-color: $grey-dk-300;
+$blue-light: #8ECAE6;
+$blue-medium: #219EBC;
+$blue-dark: #023047;
+$orange-light: #FFB703;
+$orange-dark: #FB8500;
+
+$body-background-color: $blue-dark;
+$sidebar-color: darken($body-background-color, 3%);
 $border-color: $grey-dk-200;
 
 $body-text-color: $grey-lt-300;
@@ -7,7 +13,7 @@ $body-heading-color: $grey-lt-000;
 $nav-child-link-color: $grey-dk-000;
 $search-result-preview-color: $grey-dk-000;
 
-$link-color: $blue-000;
+$link-color: $orange-light;
 $btn-primary-color: $blue-200;
 $base-button-color: $grey-dk-250;
 
