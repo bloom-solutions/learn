@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+# BloomX Learn
+**Your source of Bitcoin and crypto knowledge**.
+
+Topics covered:
+- Securing Your Bitcoin
