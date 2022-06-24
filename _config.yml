@@ -62,3 +62,7 @@ aux_links:
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
+
+# Use our own color scheme
+# https://just-the-docs.github.io/just-the-docs/docs/customization/#color-schemes
+color_scheme: bloomx-dark
