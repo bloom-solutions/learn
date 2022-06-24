@@ -43,3 +43,13 @@ figure {
     font-size: $font-size-3;
   }
 }
+
+table {
+  th {
+    font-style: bold;
+  }
+
+  th, td {
+    background-color: darken($body-background-color, 3%)
+  }
+}

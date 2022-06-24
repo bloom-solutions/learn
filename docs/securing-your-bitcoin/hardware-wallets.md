@@ -47,6 +47,7 @@ who've been in the space for a while.
 Here are the signing devices some of us at BloomX are familiar with and have fairly high degree of confidence:
 
 | Signing Device                    | Coin support                                                                                       |
+| ---                               |                                                                                                    |
 | [Coldcard](https://coldcard.com/) | Bitcoin only                                                                                       |
 | [Trezor](https://trezor.io)       | [1000+ coins](https://trezor.io/coins/); [Bitcoin-only firmware](https://shop.trezor.io/btc-only/) |
 | [Ledger](https://www.ledger.com/) | [1000+ coins](https://www.ledger.com/supported-crypto-assets)                                      |
@@ -54,12 +55,14 @@ Here are the signing devices some of us at BloomX are familiar with and have fai
 There are others which we have tried but are discontinued, not updated, or have known vulnerabilities:
 
 | Signing Device                            | Coin support | Issue                                                                                                                   |
+| ---                                       |              |                                                                                                                         |
 | [KeepKey](https://shapeshift.com/keepkey) | 40+          | [Relative easy private key extraction](https://blog.kraken.com/post/3245/flaw-found-in-keepkey-crypto-hardware-wallet/) |
 | Cobo Vault                                |              | Discontinued                                                                                                            |
 
 And there are others which we have tried ourselves but are worth mentioning:
 
 | Signing Device                                                           | Coin support                                                                                                                                                    | Notes                                                                                                                                      |
+| ---                                                                      | ---                                                                                                                                                             |                                                                                                                                            |
 | [Keystone Essential](https://shop.keyst.one/products/keystone-essential) | [1000+](https://support.keyst.one/about-keystone); [Bitcoin-only firmware](https://support.keyst.one/changelog/keystone-firmware-btc-only)                      | [Spiritual successor to Cobo Vault](https://blog.keyst.one/leaving-cobo-to-continue-the-cobo-vault-legacy-29bb2f8f026e); very easy signing |
 | [BitBox](https://shiftcrypto.shop/en)                                    | [Dozens](https://shiftcrypto.shop/en/products/bitbox02-multi-edition-2/); [Bitcoin-only edition](https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/) |                                                                                                                                            |
 | [Foundation Passport](https://foundationdevices.com/)                    | Bitcoin only                                                                                                                                                    |
