@@ -53,3 +53,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Just the docs config
+# Aux links for the upper right navigation
+aux_links:
+  "Go to BloomX.app":
+    - "//bloomx.app"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
