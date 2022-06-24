@@ -30,3 +30,16 @@ input {
 .btn {
   color: $button-text-color !important;
 }
+
+figure {
+  // Using markdown in figure and figcaption adds a paragraph with
+  // styles. Remove that to compress the space.
+  p {
+    margin: 0 !important;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: $font-size-3;
+  }
+}
