@@ -5,8 +5,9 @@
 layout: home
 ---
 
-# BloomX Learn
-**Your source of Bitcoin and crypto knowledge**.
+# **Your source of Bitcoin and crypto knowledge**.
 
-Topics covered:
-- Securing Your Bitcoin
+We've always been passionate about educating others about this space.
+There's a lot to know.
+
+[Start Learning](/docs/securing-your-bitcoin){: .btn }
