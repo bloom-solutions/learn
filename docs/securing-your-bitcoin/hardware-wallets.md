@@ -54,7 +54,7 @@ Here are the signing devices some of us at BloomX are familiar with and have fai
 
 There are others which we have tried but are discontinued, not updated, or have known vulnerabilities:
 
-| Signing Device                            | Coin support | Issue                                                                                                                   |
+| Signing Device                            | Coin support | Notes                                                                                                                   |
 | ---                                       |              |                                                                                                                         |
 | [KeepKey](https://shapeshift.com/keepkey) | 40+          | [Relative easy private key extraction](https://blog.kraken.com/post/3245/flaw-found-in-keepkey-crypto-hardware-wallet/) |
 | Cobo Vault                                |              | Discontinued                                                                                                            |
