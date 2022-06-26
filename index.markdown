@@ -10,4 +10,4 @@ layout: home
 We've always been passionate about educating others about this space.
 There's a lot to know.
 
-[Start Learning](/docs/securing-your-bitcoin){: .btn }
+[Start Learning]({{ site.baseurl }}/docs/securing-your-bitcoin){: .btn }
