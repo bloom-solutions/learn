@@ -59,7 +59,7 @@ There are others which we have tried but are discontinued, not updated, or have 
 | [KeepKey](https://shapeshift.com/keepkey) | 40+          | [Relative easy private key extraction](https://blog.kraken.com/post/3245/flaw-found-in-keepkey-crypto-hardware-wallet/) |
 | Cobo Vault                                |              | Discontinued                                                                                                            |
 
-And there are others which we have tried ourselves but are worth mentioning:
+And there are others which we have not tried ourselves but are worth mentioning:
 
 | Signing Device                                                           | Coin support                                                                                                                                                    | Notes                                                                                                                                      |
 | ---                                                                      | ---                                                                                                                                                             |                                                                                                                                            |
