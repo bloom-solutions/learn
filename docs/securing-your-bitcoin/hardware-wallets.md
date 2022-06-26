@@ -32,7 +32,10 @@ transaction, such as the address you're sending to and the amount.
 
 [BTC Sessions](https://twitter.com/btcsessions) has a lot of good content
 about Bitcoin wallets. See him talk about another wallet, Trezor, here:
+
+<div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TtlgE2Fx3m8?start=329" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # So... it's a signing device?
 
