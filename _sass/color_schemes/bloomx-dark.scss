@@ -32,6 +32,8 @@ input {
 }
 
 figure {
+  margin: 0 0 1rem 0 !important;
+
   // Using markdown in figure and figcaption adds a paragraph with
   // styles. Remove that to compress the space.
   p {
