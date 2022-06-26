@@ -4,6 +4,7 @@
 
 layout: home
 title: Welcome
+nav_order: 1
 ---
 
 # **Your source of Bitcoin and crypto knowledge**.
