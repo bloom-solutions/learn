@@ -23,7 +23,10 @@ No other key can do that.
 
 ## Unlocking a transaction
 
-This means that you could have your private key in some other computer.
+To be more secure, you can keep your private key in some other computer
+dedicated to signing. You don't play games on it, or download random apps.
+Best if the computer is completely offline.
+
 Whenever you want to sign a transaction, you:
 
 - **prepare it** on a computer that is online
