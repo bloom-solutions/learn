@@ -3,6 +3,7 @@ layout: default
 title: Securing your Bitcoin
 nav_order: 1
 has_children: true
+last_modified_date: 2022-06-26
 ---
 
 # Securing Your Bitcoin

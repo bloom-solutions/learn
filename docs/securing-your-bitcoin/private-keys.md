@@ -3,6 +3,7 @@ layout: default
 title: Private Keys
 parent: Securing your Bitcoin
 nav_order: 2
+last_modified_date: 2022-06-26
 ---
 
 # What are private keys?
