@@ -77,42 +77,54 @@
     "url": "/learn/docs/securing-your-bitcoin/",
     "relUrl": "/docs/securing-your-bitcoin/"
   },"13": {
+    "doc": "Welcome",
+    "title": "Your source of Bitcoin and crypto knowledge.",
+    "content": "We’ve always been passionate about educating others about this space. There’s a lot to know. Start Learning . ",
+    "url": "/learn/#your-source-of-bitcoin-and-crypto-knowledge",
+    "relUrl": "/#your-source-of-bitcoin-and-crypto-knowledge"
+  },"14": {
+    "doc": "Welcome",
+    "title": "Welcome",
+    "content": " ",
+    "url": "/learn/",
+    "relUrl": "/"
+  },"15": {
     "doc": "Multisig",
     "title": "What is multisig?",
     "content": "Multisig is short for multi-signature. A multisig wallet may require more than one signature to spend from that wallet. Going back to our bank check example, you can open joint bank accounts. These accounts have many people written as account holders. The bank is also told by these account holders how many must sign the checks for the check to be valid. Any three of the five signers can spend Bitcoin from this wallet. With Bitcoin multisig, you can currently have up to 20 signers1, though most people aren’t like to need that many. The common setups are 2-of-3 and 3-of-5. ",
     "url": "/learn/docs/securing-your-bitcoin/multisig.html#what-is-multisig",
     "relUrl": "/docs/securing-your-bitcoin/multisig.html#what-is-multisig"
-  },"14": {
+  },"16": {
     "doc": "Multisig",
     "title": "Why multiple signers?",
     "content": "Why would you want this kind of setup? . | Minimize fraud. Perhaps you’re running a business and want to decrease the temptation that the business partners may have to steal money. | Convenience. If one of the three business partners are away you can still get two of the business partners to sign a check. | Reduce points of failure. With a 3-of-5 setup, you can lose up to two of the keys and you will still have enough keys to access your funds. | . ",
     "url": "/learn/docs/securing-your-bitcoin/multisig.html#why-multiple-signers",
     "relUrl": "/docs/securing-your-bitcoin/multisig.html#why-multiple-signers"
-  },"15": {
+  },"17": {
     "doc": "Multisig",
     "title": "No bank",
     "content": "Bank analogies are great because more people are aware about how they work. However, the analogy stops being useful at a certain point. With banks, there’s more trust required than there is with Bitcoin. You trust the people accepting the check and handling your account. With Bitcoin multisig, there are no people to trust. The keys used to unlock or sign the transaction simply fit (or don’t fit). | https://bitcoin.stackexchange.com/a/28092 &#8617; . | . ",
     "url": "/learn/docs/securing-your-bitcoin/multisig.html#no-bank",
     "relUrl": "/docs/securing-your-bitcoin/multisig.html#no-bank"
-  },"16": {
+  },"18": {
     "doc": "Multisig",
     "title": "Multisig",
     "content": " ",
     "url": "/learn/docs/securing-your-bitcoin/multisig.html",
     "relUrl": "/docs/securing-your-bitcoin/multisig.html"
-  },"17": {
+  },"19": {
     "doc": "Private Keys",
     "title": "What are private keys?",
     "content": "A private key is like a very long random password. Very long. Impossible-to-guess long. Just like when you sign a check, the private key is your arm that knows the movements to write the signature. Well, it’s a better than a signature. Someone can look at your signature and learn how to copy it. With a private key, when you sign something you don’t make your private key public. A private key is the one that can turn the locking mechanism of the transaction so it is now open and can send your bitcoin. No other key can do that. ",
     "url": "/learn/docs/securing-your-bitcoin/private-keys.html#what-are-private-keys",
     "relUrl": "/docs/securing-your-bitcoin/private-keys.html#what-are-private-keys"
-  },"18": {
+  },"20": {
     "doc": "Private Keys",
     "title": "Unlocking a transaction",
     "content": "This means that you could have your private key in some other computer. Whenever you want to sign a transaction, you: . | prepare it on a computer that is online | copy that transaction to a computer that is offline and has your private key | sign it | copy the signed transaction back to the online computer so you can broadcast it to the Internet | . Sounds complicated? That’s because it is. That’s how it used to be done for a many that wanted to keep their keys secure. Fortunately, in the last 6 years, it has gotten easier to do this with the help of what is called hardware wallets. ",
     "url": "/learn/docs/securing-your-bitcoin/private-keys.html#unlocking-a-transaction",
     "relUrl": "/docs/securing-your-bitcoin/private-keys.html#unlocking-a-transaction"
-  },"19": {
+  },"21": {
     "doc": "Private Keys",
     "title": "Private Keys",
     "content": " ",
