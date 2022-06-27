@@ -65,7 +65,7 @@ aux_links_new_tab: false
 
 # Use our own color scheme
 # https://just-the-docs.github.io/just-the-docs/docs/customization/#color-schemes
-color_scheme: bloomx-dark
+color_scheme: custom
 
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y"
