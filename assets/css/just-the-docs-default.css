@@ -19,6 +19,10 @@ table th, table td { background-color: #022638; }
 
 .site-footer { display: none; }
 
+footer .prev-next .next-nav { text-align: right; }
+
+@media (min-width: 50rem) { footer .prev-next { display: flex; flex: 1 1 auto !important; justify-content: space-between !important; } }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document ========================================================================== */
 /** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
