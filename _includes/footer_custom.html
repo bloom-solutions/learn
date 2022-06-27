@@ -1,0 +1,28 @@
+{%- if page.parent -%}
+  {%- assign siblings_list = pages_list | where: "parent", page.parent -%}
+  {%- assign siblings_count = siblings_list | size -%}
+
+  <nav class="prev-next">
+    <div class="previous-nav">
+      {%- if page.nav_order > 1 -%}
+        {%- assign previous_nav_order = page.nav_order | minus: 1 -%}
+        {%- assign previous_page = siblings_list | where: "nav_order", previous_nav_order | first -%}
+        <a href="{{ previous_page.url }}">
+          <span>&#8592;</span>
+          <span>{{ previous_page.title }}</span>
+        </a>
+      {%- endif -%}
+    </div>
+
+    <div class="next-nav">
+      {%- if page.nav_order < siblings_count -%}
+        {%- assign next_nav_order = page.nav_order | plus: 1 -%}
+        {%- assign next_page = siblings_list | where: "nav_order", next_nav_order | first -%}
+        <a href="{{ next_page.url }}">
+          <span>{{next_page.title}}</span>
+          <span>&#8594;</span>
+        </a>
+      {%- endif -%}
+    </div>
+  </nav>
+{%- endif -%}

@@ -77,3 +77,15 @@ table {
 .site-footer {
   display: none;
 }
+
+footer .prev-next {
+  .next-nav {
+    text-align: right;
+  }
+
+  @include mq(md) {
+    display: flex;
+    flex: 1 1 auto !important;
+    justify-content: space-between !important;
+  }
+}
