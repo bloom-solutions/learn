@@ -73,3 +73,20 @@ last_edit_time_format: "%b %e %Y"
 # https://just-the-docs.github.io/just-the-docs/docs/configuration/#google-analytics
 ga_tracking: G-XP2G23W663
 ga_tracking_anonymize_ip: true
+
+# Add tutorials
+# https://just-the-docs.github.io/just-the-docs/docs/configuration/#document-collections
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+    tutorials:
+      name: Tutorials
