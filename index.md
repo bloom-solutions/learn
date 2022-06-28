@@ -12,4 +12,4 @@ nav_order: 1
 We've always been passionate about educating others about this space.
 There's a lot to know.
 
-[Start Learning]({{ site.baseurl }}/docs/securing-your-bitcoin){: .btn }
+[Start Learning]({{ site.baseurl }}/tutorials/securing-your-bitcoin){: .btn }
