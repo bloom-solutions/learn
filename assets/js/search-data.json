@@ -31,7 +31,7 @@
   },"5": {
     "doc": "Cold Storage",
     "title": "What is cold storage?",
-    "content": "Cold storage is a method of storing data that aren’t accessed often. When it comes to Bitcoin and crypto, cold storage means that the bitcoins are “offline”. They are not on a phone or computer that is connected to the Internet. The purpose of having your bitcoin offline is that a hacker connected through the Internet cannot reach it. It’s a lot like a castle surrounded by a moat with the drawbridge up. A moat is a body of water surround this castle. Photo by By Dariusz Jemielniak (“Pundit”) - Own work, CC BY-SA 3.0. When you want to send out Bitcoin, however, you don’t bring the computer online. ",
+    "content": "Cold storage is a method of storing data that aren’t accessed often. When it comes to Bitcoin and crypto, cold storage means that the bitcoins are “offline”. They are not on a phone or computer that is connected to the Internet. The purpose of having your bitcoin offline is that a hacker connected through the Internet cannot reach it. It’s a lot like a castle surrounded by a moat with the drawbridge up. A moat is a body of water surround this castle. Photo by By Dariusz Jemielniak (“Pundit”) - Own work, CC BY-SA 3.0. When you want to send out Bitcoin, however, you don’t bring the computer online. If you do, that’ll make it a hot wallet – this means the keys have been on a computer that is online. ",
     "url": "/tutorials/securing-your-bitcoin/cold-storage/#what-is-cold-storage",
     "relUrl": "/tutorials/securing-your-bitcoin/cold-storage/#what-is-cold-storage"
   },"6": {
