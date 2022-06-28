@@ -69,3 +69,7 @@ color_scheme: custom
 
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y"
+
+# https://just-the-docs.github.io/just-the-docs/docs/configuration/#google-analytics
+ga_tracking: G-T6LSLCW4NB
+ga_tracking_anonymize_ip: true
