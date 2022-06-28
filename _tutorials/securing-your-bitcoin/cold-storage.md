@@ -27,6 +27,8 @@ Photo by [By Dariusz Jemielniak ("Pundit") - Own work, CC BY-SA 3.0](https://com
 </figure>
 
 When you want to send out Bitcoin, however, you don't bring the computer online.
+If you do, that'll make it a **hot wallet** -- this means the keys have been on
+a computer that is online.
 
 ## How do you send Bitcoin?
 
