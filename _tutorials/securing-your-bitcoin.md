@@ -4,6 +4,8 @@ title: Securing your Bitcoin
 nav_order: 2
 has_children: true
 last_modified_date: 2022-06-29
+redirect_from:
+  - /tutorials/securing-your-bitcoin/index/
 ---
 
 # Securing Your Bitcoin
