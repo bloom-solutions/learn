@@ -6,7 +6,7 @@ nav_order: 2
 last_modified_date: 2022-06-28
 ---
 
-## Electrum
+# Electrum
 
 <figure markdown=1>
 ![Electrum](/assets/images/electrum.jpg)
