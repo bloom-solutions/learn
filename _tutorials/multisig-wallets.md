@@ -4,6 +4,8 @@ title: Multisig Wallets
 nav_order: 3
 has_children: true
 last_modified_date: 2022-06-28
+redirect_from:
+  - /tutorials/multisig-wallets/index/
 ---
 
 # {{ page.title }}
