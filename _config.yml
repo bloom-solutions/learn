@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   BloomX Learn is a platform to learn more, from concepts to practical
   knowledge.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://learn.bloomx.app"
 twitter_username: bloomXorg
 github_username: bloom-solutions
 
@@ -34,6 +34,7 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
