@@ -67,7 +67,7 @@
   },"11": {
     "doc": "Securing your Bitcoin",
     "title": "Securing Your Bitcoin",
-    "content": "Keeping your Bitcoin and crypto safe is challenging, but it is something that can be learned. Remember: “security” and “ease of use” work against one other. The more secure something is, the harder it is to use it. Opening a bank vault is more complicated than opening your wallet. That is done intentionally. Despite that, fortunately, it has been been getting easier to custody your Bitcoin. In this series, you’ll learn the core concepts of securing Bitcoin. The concepts will apply to other crypto as well, but the examples will be Bitcoin specific. This is not meant to be an in-depth tutorial on how to set this up. This is a starting point for your journey to securing your assets yourself. ",
+    "content": "Keeping your Bitcoin and crypto safe is challenging, but it is something that can be learned. In this series, you’ll learn the core concepts of securing Bitcoin. The concepts will apply to other crypto as well, but the examples will be Bitcoin specific. This is not meant to be an in-depth tutorial on how to set this up. This is a starting point for your journey to securing your assets yourself. ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/#securing-your-bitcoin",
     "relUrl": "/tutorials/securing-your-bitcoin/#securing-your-bitcoin"
   },"12": {
@@ -143,46 +143,64 @@
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/hardware-wallets/",
     "relUrl": "/tutorials/securing-your-bitcoin/hardware-wallets/"
   },"24": {
+    "doc": "Levels of Security",
+    "title": "Levels of Security",
+    "content": "Now that you have an idea of what software wallets, hardware wallets / signing devices, keys, then you’re ready to think about what level of security is appropriate for you. As discussed in Security vs. Convenience, there are multiple factors, but we have a general recommendation: . | Value | Scheme | . | Wallet (~ ₱10,000) | Single sig, software | . | Vacation (~ ₱400,000) | Single sig, hardware | . | Car (~ ₱1 million) | 2 of 2 multisig, hardware | . | House (~ ₱15 million) | 2 of 3 multisig, hardware | . | Small island (~ ₱50 million) | 3 of 5 multisig, hardware | . | Castle (~ ₱1 billion) | 4 of 6 multisig, hardware | . | Fortune (above ₱3 billion) | 5 of 8 multisig, hardware | . It’s too much work to have a 2 of 3 multisig if you’re storing ₱5,000 worth. If you have billions of Pesos, however, you want to make sure that: . | if something happens to you, your heirs can still access it but you don’t want to give them control before then | if there’s a fire/flood in one place where you have some / one private keys, you don’t lose access to your funds | you can’t access your funds easily in case you’re forced to by someone else | . You can go on and on, such as thinking about “decoy wallets”, so that in case you’re being held up by a theif, then you can see send them some crypto but not the whole stash. The types of setup are endless. This is why we recommend that you take it a step at a time. ",
+    "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/levels-of-security/",
+    "relUrl": "/tutorials/securing-your-bitcoin/levels-of-security/"
+  },"25": {
     "doc": "Multisig",
     "title": "What is multisig?",
     "content": "Multisig is short for multi-signature. A multisig wallet may require more than one signature to spend from that wallet. Going back to our bank check example, you can open joint bank accounts. These accounts have many people written as account holders. The bank is also told by these account holders how many must sign the checks for the check to be valid. Any three of the five signers can spend Bitcoin from this wallet. With Bitcoin multisig, you can currently have up to 20 signers1, though most people aren’t like to need that many. The common setups are 2-of-3 and 3-of-5. ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/multisig/#what-is-multisig",
     "relUrl": "/tutorials/securing-your-bitcoin/multisig/#what-is-multisig"
-  },"25": {
+  },"26": {
     "doc": "Multisig",
     "title": "Why multiple signers?",
     "content": "Why would you want this kind of setup? . | Minimize fraud. Perhaps you’re running a business and want to decrease the temptation that the business partners may have to steal money. | Convenience. If one of the three business partners are away you can still get two of the business partners to sign a check. | Reduce points of failure. With a 3-of-5 setup, you can lose up to two of the keys and you will still have enough keys to access your funds. | . ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/multisig/#why-multiple-signers",
     "relUrl": "/tutorials/securing-your-bitcoin/multisig/#why-multiple-signers"
-  },"26": {
+  },"27": {
     "doc": "Multisig",
     "title": "No bank",
     "content": "Bank analogies are great because more people are aware about how they work. However, the analogy stops being useful at a certain point. With banks, there’s more trust required than there is with Bitcoin. You trust the people accepting the check and handling your account. With Bitcoin multisig, there are no people to trust. The keys used to unlock or sign the transaction simply fit (or don’t fit). | https://bitcoin.stackexchange.com/a/28092 &#8617; . | . ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/multisig/#no-bank",
     "relUrl": "/tutorials/securing-your-bitcoin/multisig/#no-bank"
-  },"27": {
+  },"28": {
     "doc": "Multisig",
     "title": "Multisig",
     "content": " ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/multisig/",
     "relUrl": "/tutorials/securing-your-bitcoin/multisig/"
-  },"28": {
+  },"29": {
     "doc": "Private Keys",
     "title": "What are private keys?",
     "content": "A private key is like a very long random password. Very long. Impossible-to-guess long. Just like when you sign a check, the private key is your arm that knows the movements to write the signature. Well, it’s a better than a signature. Someone can look at your signature and learn how to copy it. With a private key, when you sign something you don’t make your private key public. A private key is the one that can turn the locking mechanism of the transaction so it is now open and can send your bitcoin. No other key can do that. ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/private-keys/#what-are-private-keys",
     "relUrl": "/tutorials/securing-your-bitcoin/private-keys/#what-are-private-keys"
-  },"29": {
+  },"30": {
     "doc": "Private Keys",
     "title": "Unlocking a transaction",
     "content": "To be more secure, you can keep your private key in some other computer dedicated to signing. You don’t play games on it, or download random apps. Best if the computer is completely offline. Whenever you want to sign a transaction, you: . | prepare it on a computer that is online | copy that transaction to a computer that is offline and has your private key | sign it | copy the signed transaction back to the online computer so you can broadcast it to the Internet | . Sounds complicated? That’s because it is. That’s how it used to be done for a many that wanted to keep their keys secure. Fortunately, in the last 6 years, it has gotten easier to do this with the help of what is called hardware wallets. ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/private-keys/#unlocking-a-transaction",
     "relUrl": "/tutorials/securing-your-bitcoin/private-keys/#unlocking-a-transaction"
-  },"30": {
+  },"31": {
     "doc": "Private Keys",
     "title": "Private Keys",
     "content": " ",
     "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/private-keys/",
     "relUrl": "/tutorials/securing-your-bitcoin/private-keys/"
+  },"32": {
+    "doc": "Security vs. Convenience",
+    "title": "Security vs. Convenience",
+    "content": "“Security” and “convenience” work against one other. The more secure something is, the harder/less convenient it is to use it. Opening a bank vault is more complicated than opening your wallet. That is done intentionally. As you explore the world of securing your Bitcoin, remember that you don’t and shouldn’t attempt to have The Most Secure Setup at the start. Get familiar with a setup that is secure enough for your needs (and funds). ",
+    "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/security-vs-convenience/",
+    "relUrl": "/tutorials/securing-your-bitcoin/security-vs-convenience/"
+  },"33": {
+    "doc": "Security vs. Convenience",
+    "title": "Step by Step",
+    "content": "What is enough for a software wallet? A hardware wallet? How about this thing called multisig? . The answer depends on a few things. | how often you need to access these funds | the value of these funds | the size of these funds in your portfolio | . Fortunately, it has been been getting easier to custody your Bitcoin. At the end of this section, we’ll give rules of thumb for your storage setup, but first we have to make sure you’re familiar with some concepts! . ",
+    "url": "https://learn.bloomx.app/tutorials/securing-your-bitcoin/security-vs-convenience/#step-by-step",
+    "relUrl": "/tutorials/securing-your-bitcoin/security-vs-convenience/#step-by-step"
   }
 }
