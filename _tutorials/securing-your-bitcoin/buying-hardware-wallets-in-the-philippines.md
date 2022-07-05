@@ -2,7 +2,7 @@
 layout: default
 title: Buying Hardware Wallets in The Philippines
 parent: Securing your Bitcoin
-nav_order: 5
+nav_order: 6
 last_modified_date: 2022-06-26
 ---
 
